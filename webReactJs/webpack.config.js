@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 // 這邊使用 HtmlWebpackPlugin，將 bundle 好的 <script> 插入到 body。
-// ${__dirname} 為 ES6 語法對應到 __dirname  
+// ${__dirname} 為 ES6 語法對應到 __dirname  測試2
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
     template: `${__dirname}/app/index.html`,
     filename: 'index.html',
